@@ -1,7 +1,7 @@
 package rra.workshop.mysterycode1;
 
 public class MysteryCode {
-    public static String mysteryCode(String s) {
+    public String mysteryCode(String s) {
         String result = "";
         char[] a = s.toCharArray();
         for (short i = 0; i < s.length(); i++) {
